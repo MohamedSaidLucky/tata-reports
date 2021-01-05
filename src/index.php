@@ -1,7 +1,6 @@
 <?php   
-    session_set_cookie_params(0, "/", ".tataseafood.com", false, false);
-    session_start();
-
+    
+    require_once('config.php');
 
     
 
@@ -56,6 +55,12 @@
                             <td>
                                 <ion-icon name="document"></ion-icon>
                                 <a href="report-msales.php" >تقرير المبيعات اليومية</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ion-icon name="document"></ion-icon>
+                                <a href="report-orders.php" >الأوردرات اليومية</a>
                             </td>
                         </tr>
                         <tr>

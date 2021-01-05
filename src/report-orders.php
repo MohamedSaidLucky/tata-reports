@@ -43,6 +43,11 @@
         <div class="row">
             <div class="col-sm-12">
                 <form id="branch" action="demo" method="get">
+                    <div class="form-group">
+                      <label for="">Date</label>
+                      <input type="text"
+                        class="form-control" name="order" id="order" aria-describedby="helpId" placeholder="Order Number">
+                    </div>
                     <!-- Date-->
                     <div class="form-group">
                       <label for="">Date</label>
@@ -58,17 +63,11 @@
                             <option value="http://41.41.167.106:82/tata/menusales.php">مدينة نصر</option>
                             <option value="http://197.50.52.10/tata/menusales.php">المعادي</option>
                             <option value="http://41.41.151.66:82/tata/menusales.php">حلوان</option>
-                            <option value="http://81.10.8.186:82/tata/menusales.php">الرحاب</option>
+                            <option value="http://81.10.8.186:82/tata/order.php">الرحاب</option>
                             <!-- <option value="http://197.51.9.89:82/tata/menusales.php">زايد</option> -->
                         </select>
                     </div> 
-                    <!-- Advanced -->
-                    <div class="form-check">
-                      <label class="form-check-label" id="">
-                        <input type="checkbox" class="form-check-input" name="advanced" id="advanced" value="advanced" checked>
-                        Advanced
-                      </label>
-                    </div>
+                    
                     <!-- Submit -->
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary">Submit</button>
